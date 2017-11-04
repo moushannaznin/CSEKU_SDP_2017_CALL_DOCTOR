@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/search_doctor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:scrollbars="none"
+    tools:context="com.cse.calldoctor.SearchDoctor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="3dp"
+            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/card_margin">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Select Division :"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="6dp"
+                    android:background="#40000000" />
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/spinnerDivision"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:entries="@array/division_arrays" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Select District :"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="6dp"
+                    android:background="#40000000" />
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/spinnerDistrict"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:entries="@array/all_district_arrays" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="3dp"
+                card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/card_margin">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/card_margin"
+                        android:text="Please select your desire specialist..."
+                        android:textColor="#000" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <android.support.v7.widget.AppCompatCheckBox
+                                android:id="@+id/checkbox"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:tag="@string/urology"
+                                android:text="@string/urology" />
+
+                            <android.support.v7.widget.AppCompatCheckBox
+                                android:id="@+id/checkbox1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:tag="@string/hematology"
+                                android:text="@string/hematology" />
+
+                            <android.support.v7.widget.AppCompatCheckBox
+                                android:id="@+id/checkbox2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:tag="@string/orthopaedics"
+                                android:text="@string/orthopaedics" />
+
+                            <android.support.v7.widget.AppCompatCheckBox
+                                android:id="@+id/checkbox3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:tag="@string/gynaecology"
+                                android:text="@string/gynaecology" />
+
+                            <android.support.v7.widget.AppCompatCheckBox
+                                android:id="@+id/checkbox4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:tag="@string/respiratory"
+                                android:text="@string/respiratory" />
+
+                            <android.support.v7.widget.AppCompatCheckBox
+                                android:id="@+id/checkbox5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:tag="@string/paediatrics"
+                                android:text="@string/paediatrics" />
+
+                            <android.support.v7.widget.AppCompatCheckBox
+                                android:id="@+id/checkbox6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:tag="@string/cardiology"
+                                android:text="@string/cardiology" />
+
+                            <android.support.v7.widget.AppCompatCheckBox
+                                android:id="@+id/checkbox7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:tag="@string/ent"
+                                android:text="@string/ent" />
+
+                            <android.support.v7.widget.AppCompatCheckBox
+                                android:id="@+id/checkbox8"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:tag="@string/neurology"
+                                android:text="@string/neurology" />
+
+                            <android.support.v7.widget.AppCompatCheckBox
+                                android:id="@+id/checkbox9"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:tag="@string/gastroenterology"
+                                android:text="@string/gastroenterology" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="2dp"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/darker_gray" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <android.support.v7.widget.AppCompatCheckBox
+                                android:id="@+id/checkbox10"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:tag="@string/eye"
+                                android:text="@string/eye" />
+
+                            <android.support.v7.widget.AppCompatCheckBox
+                                android:id="@+id/checkbox11"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:tag="@string/psychiatry"
+                                android:text="@string/psychiatry" />
+
+                            <android.support.v7.widget.AppCompatCheckBox
+                                android:id="@+id/checkbox12"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:tag="@string/skin"
+                                android:text="@string/skin" />
+
+                            <android.support.v7.widget.AppCompatCheckBox
+                                android:id="@+id/checkbox13"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:tag="@string/hepatology"
+                                android:text="@string/hepatology" />
+
+                            <android.support.v7.widget.AppCompatCheckBox
+                                android:id="@+id/checkbox14"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:tag="@string/dental"
+                                android:text="@string/dental" />
+
+                            <android.support.v7.widget.AppCompatCheckBox
+                                android:id="@+id/checkbox15"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:tag="@string/oncology"
+                                android:text="@string/oncology" />
+
+                            <android.support.v7.widget.AppCompatCheckBox
+                                android:id="@+id/checkbox16"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:tag="@string/rheumatology"
+                                android:text="@string/rheumatology" />
+
+                            <android.support.v7.widget.AppCompatCheckBox
+                                android:id="@+id/checkbox17"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:tag="@string/nutritionist"
+                                android:text="@string/nutritionist" />
+
+                            <android.support.v7.widget.AppCompatCheckBox
+                                android:id="@+id/checkbox18"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:tag="@string/dermatology"
+                                android:text="@string/dermatology" />
+
+                            <android.support.v7.widget.AppCompatCheckBox
+                                android:id="@+id/checkbox19"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:tag="@string/endocrinology"
+                                android:text="@string/endocrinology" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <!--This for enabling Card shadow-->
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/card_margin" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="46dp">
+
+            <Button
+                android:id="@+id/btnSearch"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:elevation="3dp"
+                android:text="Search"
+                android:textColor="#FAFAFA"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

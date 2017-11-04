@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context="com.cse.calldoctor.DoctorAbsent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Time: 10.00 AM - 4.00 PM"
+        android:textColor="#424242"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvDays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Unavailable Days: Sunday"
+        android:textColor="#424242" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Unavailable Date: 21"
+        android:textColor="#424242" />
+
+    <TextView
+        android:id="@+id/tvRange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Unavailable Date Range: 15-25"
+        android:textColor="#424242" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Appointment Date:"
+        android:textColor="#424242"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/edtAppointmentDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ex: dd-mm-yyyy"
+        android:inputType="date" />
+
+    <Button
+        android:id="@+id/btnSendRequest"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="6dp"
+        android:text="Send request"
+        android:textColor="@color/colorAccent" />
+
+</LinearLayout>

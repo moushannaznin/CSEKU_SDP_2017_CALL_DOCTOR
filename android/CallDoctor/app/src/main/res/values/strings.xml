@@ -1,0 +1,321 @@
+<resources>
+    <string name="app_name">Call Doctor</string>
+
+    <string name="urology">Urology</string>
+    <string name="hematology">Hematology</string>
+    <string name="orthopaedics">Orthopaedics</string>
+    <string name="gynaecology">Gynaecology</string>
+    <string name="respiratory">Respiratory</string>
+    <string name="paediatrics">Paediatrics</string>
+    <string name="cardiology">Cardiology</string>
+    <string name="ent">ENT</string>
+    <string name="neurology">Neurology</string>
+    <string name="gastroenterology">Gastroenterology</string>
+    <string name="eye">Eye</string>
+    <string name="psychiatry">Psychiatry</string>
+    <string name="skin">Skin</string>
+    <string name="hepatology">Hepatology</string>
+    <string name="dental">Dental</string>
+    <string name="oncology">Oncology</string>
+    <string name="rheumatology">Rheumatology</string>
+    <string name="nutritionist">Nutritionist</string>
+    <string name="dermatology">Dermatology</string>
+    <string name="endocrinology">Endocrinology</string>
+
+    <string name="title_activity_maps">Location</string>
+    <string name="select_specialist">Select a specialist</string>
+
+    <string-array name="specialist_arrays">
+        <item>@string/urology</item>
+        <item>@string/hematology</item>
+        <item>@string/orthopaedics</item>
+        <item>@string/gynaecology</item>
+        <item>@string/respiratory</item>
+        <item>@string/paediatrics</item>
+        <item>@string/cardiology</item>
+        <item>@string/ent</item>
+        <item>@string/neurology</item>
+        <item>@string/gastroenterology</item>
+        <item>@string/eye</item>
+        <item>@string/psychiatry</item>
+        <item>@string/skin</item>
+        <item>@string/hepatology</item>
+        <item>@string/dental</item>
+        <item>@string/oncology</item>
+        <item>@string/rheumatology</item>
+        <item>@string/nutritionist</item>
+        <item>@string/dermatology</item>
+        <item>@string/endocrinology</item>
+    </string-array>
+
+    <string-array name="week_arrays">
+        <item>Choose a day...</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </string-array>
+
+    <string-array name="days_arrays">
+        <item>Choose a date...</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+
+    <string name="all_division">All Division</string>
+    <string name="dhaka">Dhaka</string>
+    <string name="chittagong">Chittagong</string>
+    <string name="khulna">Khulna</string>
+    <string name="barisal">Barisal</string>
+    <string name="mymenshing">Mymenshing</string>
+    <string name="rajshahi">Rajshahi</string>
+    <string name="sylhet">Sylhet</string>
+    <string name="rangpur">Rangpur</string>
+
+
+    <string-array name="division_arrays">
+        <item>@string/all_division</item>
+        <item>@string/dhaka</item>
+        <item>@string/chittagong</item>
+        <item>@string/khulna</item>
+        <item>@string/barisal</item>
+        <item>@string/mymenshing</item>
+        <item>@string/rajshahi</item>
+        <item>@string/sylhet</item>
+        <item>@string/rangpur</item>
+    </string-array>
+
+    <!--Khulna District-->
+
+    <string name="bagerhat">Bagerhat</string>
+    <string name="chuadanga">Chuadanga</string>
+    <string name="jessore">Jessore</string>
+    <string name="jhenaidah">Jhenaidah</string>
+    <string name="khulna_dis">Khulna</string>
+    <string name="kushtia">Kushtia</string>
+    <string name="magura">Magura</string>
+    <string name="meherpur">Meherpur</string>
+    <string name="narail">Narail</string>
+    <string name="satkhira">Satkhira</string>
+
+
+    <string-array name="khulna_district_arrays">
+        <item>Select</item>
+        <item>Bagerhat</item>
+        <item>Chuadanga</item>
+        <item>Jessore</item>
+        <item>Jhenaidah</item>
+        <item>Khulna</item>
+        <item>Kushtia</item>
+        <item>Magura</item>
+        <item>Meherpur</item>
+        <item>Narail</item>
+        <item>Satkhira</item>
+        <item>All Division</item>
+    </string-array>
+
+    <string-array name="dhaka_district_arrays">
+        <item>select</item>
+        <item>Dhaka</item>
+        <item>Faridpur</item>
+        <item>Gazipur</item>
+        <item>Gopalganj</item>
+        <item>Kishoregonj</item>
+        <item>Madaripur</item>
+        <item>Manikganj</item>
+        <item>Munshiganj</item>
+        <item>Narayanganj</item>
+        <item>Narsingdi</item>
+        <item>Rajbari</item>
+        <item>Shariatpur</item>
+        <item>Tangail</item>
+        <item>All Division</item>
+    </string-array>
+
+    <string-array name="chittagong_district_arrays">
+        <item>select</item>
+        <item>Bandarban</item>
+        <item>Brahmanbaria</item>
+        <item>Chandpur</item>
+        <item>Chittagong</item>
+        <item>Comilla</item>
+        <item>Coxbazar</item>
+        <item>Feni</item>
+        <item>Khagrachhari</item>
+        <item>Lakshmipur</item>
+        <item>Noakhali</item>
+        <item>Rangamati</item>
+        <item>All Division</item>
+    </string-array>
+
+
+    <string-array name="barisal_district_arrays">
+        <item>select</item>
+        <item>Barisal</item>
+        <item>Bhola</item>
+        <item>Jhalokati</item>
+        <item>Patuakhali</item>
+        <item>Pirojpur</item>
+        <item>Barguna</item>
+        <item>All Division</item>
+
+    </string-array>
+
+
+    <string-array name="mymenshing_district_arrays">
+        <item>select</item>
+        <item>Mymensingh</item>
+        <item>Jamalpur</item>
+        <item>Netrakona</item>
+        <item>Sherpur</item>
+        <item>All Division</item>
+
+    </string-array>
+
+
+    <string-array name="syhlet_district_arrays">
+        <item>select</item>
+        <item>Sylhet</item>
+        <item>Sunamganj</item>
+        <item>Maulavybazar</item>
+        <item>Habiganj</item>
+        <item>All Division</item>
+
+    </string-array>
+
+
+    <string-array name="rajshahi_district_arrays">
+        <item>select</item>
+        <item>Sirajganj</item>
+        <item>Rajshahi</item>
+        <item>Natore</item>
+        <item>Naogaon</item>
+        <item>Pabna</item>
+        <item>Joypurhat</item>
+        <item>Chapainababganj</item>
+        <item>Bogra</item>
+        <item>All Division</item>
+
+    </string-array>
+
+    <string-array name="rangpur_district_arrays">
+        <item>select</item>
+        <item>Thakurgaon</item>
+        <item>Rangpur</item>
+        <item>Panchagarh</item>
+        <item>Nilphamari</item>
+        <item>Lalmonirhat</item>
+        <item>Kurigram</item>
+        <item>Gaibandha</item>
+        <item>Dinajpur</item>
+        <item>All Division</item>
+
+    </string-array>
+
+    <string-array name="all_district_arrays">
+        <item>select</item>
+        <item>thakurgaon</item>
+        <item>rangpur</item>
+        <item>panchagarh</item>
+        <item>nilphamari</item>
+        <item>lalmonirhat</item>
+        <item>kurigram</item>
+        <item>kurigram</item>
+        <item>gaibandha</item>
+        <item>dinajpur</item>
+        <item>Bagerhat</item>
+        <item>Chuadanga</item>
+        <item>Jessore</item>
+        <item>Jhenaidah</item>
+        <item>Khulna</item>
+        <item>Kushtia</item>
+        <item>Magura</item>
+        <item>Meherpur</item>
+        <item>Narail</item>
+        <item>Satkhira</item>
+        <item>dhaka</item>
+        <item>faridpur</item>
+        <item>gazipur</item>
+        <item>gopalganj</item>
+        <item>kishoregonj</item>
+        <item>madaripur</item>
+        <item>manikganj</item>
+        <item>munshiganj</item>
+        <item>narayanganj</item>
+        <item>narsingdi</item>
+        <item>rajbari</item>
+        <item>shariatpur</item>
+        <item>tangail</item>
+        <item>bandarban</item>
+        <item>brahmanbaria</item>
+        <item>chandpur</item>
+        <item>chittagong</item>
+        <item>comilla</item>
+        <item>coxbazar</item>
+        <item>feni</item>
+        <item>khagrachhari</item>
+        <item>lakshmipur</item>
+        <item>noakhali</item>
+        <item>rangamati</item>
+        <item>barisal</item>
+        <item>bhola</item>
+        <item>jhalokati</item>
+        <item>patuakhali</item>
+        <item>pirojpur</item>
+        <item>barguna</item>
+        <item>mymensingh</item>
+        <item>jamalpur</item>
+        <item> netrakona,</item>
+        <item>sherpur</item>
+        <item>sylhet</item>
+        <item>sunamganj</item>
+        <item>maulavybazar</item>
+        <item>habiganj</item>
+        <item>sirajganj</item>
+        <item>rajshahi</item>
+        <item>natore</item>
+        <item>naogaon</item>
+        <item>pabna</item>
+        <item>joypurhat</item>
+        <item>chapainababganj</item>
+        <item>bogra</item>
+
+    </string-array>
+
+
+    <string name="about"><![CDATA[<h2><font color="#616161">Call Doctor</font></h2> this apps is mainly made for doctor & patient.for the doctors,they can registration in this apps ..then they can set the day when they are avaiable or not avaiable to see the patient.& the can see the appointment list where the patient sent a request to meet with doctor,.the requests are save in pending.if the doctor acept the request ,the patient can meet with doctor.on the other hand if the doctor reject the request the patient can not meet with him.the patient can registration in there.they can search the doctor,see the location of doctor chamber,call the doctor ,ambulance,diagnostic,hospital ,which are in avaiable in sprcific district & division wise..then finding the doctor patient can request for appoinment & he can see whatever the doctor except his request or not.there is also an admin option ...the admin can add ambulance,hospital,diagnostic center in the apps. ]]>
+    </string>
+
+</resources>
